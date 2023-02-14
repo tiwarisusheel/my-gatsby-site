@@ -1,5 +1,5 @@
 //Step 1: Import React
-import * as React from 'React'
+import * as React from 'react'
 import {Link} from 'gatsby'
 //Step 2: Define your component
 const AboutPage =() =>{

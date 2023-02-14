@@ -1,5 +1,5 @@
 //step 1 import react
-import * as React from 'React'
+import * as React from 'react'
 import { Link } from 'gatsby'
 
 //Step 2 define your component
