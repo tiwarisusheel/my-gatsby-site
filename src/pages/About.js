@@ -1,14 +1,12 @@
 //Step 1: Import React
 import * as React from 'react'
-import {Link} from 'gatsby'
+import Layout from '../component/Layout'
 //Step 2: Define your component
 const AboutPage =() =>{
     return (
-        <main>
-            <h1>About Me</h1>
-            <Link to="/">Back to home</Link>
-            <p>Hi there! I am susheel and creating this site with gatsbyjs and reactjs</p>
-        </main>
+        <Layout pageTitle= "About Me" >
+         <p>This my second Layout component.</p>
+        </Layout>
     )
 }
 //Step 3: Export your component

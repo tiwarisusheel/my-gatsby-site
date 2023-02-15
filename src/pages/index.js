@@ -1,15 +1,13 @@
 //step 1 import react
 import * as React from 'react'
-import { Link } from 'gatsby'
+import Layout from '../component/Layout'
 
 //Step 2 define your component
 const IndexPage = () => {
   return (
-<main>
-  <h1>Welcome to my gatsby site susheel</h1>
-  <Link to="/About">About</Link>
-  <p>I am making this by following the gatsby tutorial.</p>
-</main>
+  <Layout pageTitle="Home Page">
+  <p>This is my first reusable layout component</p>
+  </Layout>
   )
 }
 
